@@ -22,7 +22,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
-$(call inherit-product, vendor/stag/config/common_full_phone.mk)
+$(call inherit-product, vendor/stag/main.mk)
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
