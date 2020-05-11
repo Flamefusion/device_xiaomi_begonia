@@ -11,8 +11,8 @@
    "branch": "ten"
  },
  {
-   "repository": "vendor_xiaomi",
-   "target_path": "vendor/xiaomi",
+   "repository": "vendor_redmi_begonia",
+   "target_path": "vendor/redmi/begonia",
    "branch": "ten"
  },
  {
