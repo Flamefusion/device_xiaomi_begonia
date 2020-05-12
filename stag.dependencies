@@ -6,8 +6,8 @@
    "remote": "pixel-gitlab"
  },
  {
-   "repository": "kernel_xiaomi_begonia",
-   "target_path": "kernel/xiaomi/begonia",
+   "repository": "kernel_xiaomi_mt6785",
+   "target_path": "kernel/xiaomi/mt6785",
    "branch": "ten"
  },
  {
