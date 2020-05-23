@@ -135,4 +135,4 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 28
 BOARD_VNDK_RUNTIME_DISABLE := true
 
 # Inherit from the proprietary version
--include vendor/redmi/begonia/BoardConfigVendor.mk
+-include vendor/xiaomi/begonia/BoardConfigVendor.mk
