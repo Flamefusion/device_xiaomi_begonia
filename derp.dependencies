@@ -7,12 +7,12 @@
  },
  {
    "repository": "kernel_xiaomi_mt6785",
-   "target_path": "kernel/xiaomi/mt6785",
+   "target_path": "kernel/xiaomi/begonia",
    "branch": "ten"
  },
  {
    "repository": "vendor_redmi_begonia",
-   "target_path": "vendor/redmi/begonia",
+   "target_path": "vendor/xiaomi/begonia",
    "branch": "ten"
  },
  {
