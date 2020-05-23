@@ -17,12 +17,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from begonia device makefile
 $(call inherit-product, device/xiaomi/begonia/device.mk)
 
-# Inherit some common PE stuff.
+# Inherit some common derp stuff.
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_INCLUDE_STOCK_ARCORE := true
-$(call inherit-product, vendor/stag/main.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -34,7 +34,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := begonia
-PRODUCT_NAME := stag_begonia
+PRODUCT_NAME := derp_begonia
 PRODUCT_BRAND := Redmi
 PRODUCT_MANUFACTURER := Xiaomi
 
